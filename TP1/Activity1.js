@@ -1,8 +1,8 @@
 var unirest = require('unirest')
 
 	// question 2
-function name_starts_with(Countries, letter) {
-return Countries.filter(Countries => Countries.name[0] == letter)
+function name_starts_with(Countries, ltr) {
+return Countries.filter(Countries => Countries.name[0] == ltr)
 }
 
 var req = unirest('GET', 'http://localhost:3000/Countries')
@@ -14,12 +14,9 @@ req.end((res) {
 
     // question 1
     var first_10_Countries = res.body.slice(0, 10)
-    console.log("FIRST 10 STATES:\n")
     console.log(first_10_Countries)
     
-	
     //Appel fonction de la question 2
-    console.log("\n")
-    console.log("STATES THAT START WITH THE LETTER M:\n")
+    console.log("STATES THAT START WITH THE LETTER M ARE:\n")
     console.log(name_starts_with(res.body, "M"))
 })
