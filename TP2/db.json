@@ -1,0 +1,587 @@
+{"Countries": [
+  {
+    "id": 1,
+    "Name": "Adrar",
+    "Nombre de daïras": 6,
+    "Nombre de communes": 16,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+      }
+  },
+  {
+    "id": 2,
+	"Name": "Chlef",
+    "Nombre de daïras": 13,
+    "Nombre de communes": 35,
+	"about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },
+  {
+    "id": 3,
+	    "Name": "Laghouat",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 24,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 4,
+	"Name": "Oum El Bouaghi",
+	"Nombre de daïras": 12,
+    "Nombre de communes": 29,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 5,
+	"Name": "Batna",
+	"Nombre de daïras": 21,
+    "Nombre de communes": 61,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 6,
+	"Name": "Bejaia",
+	"Nombre de daïras": 19,
+    "Nombre de communes": 52,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 7,
+	"Name": "Biskra",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 27,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 8,
+	"Name": "Bechar",
+	"Nombre de daïras": 6,
+    "Nombre de communes": 11,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 9,
+	"Name": "Blida",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 25,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 10,
+	"Name": "Bouira",
+	"Nombre de daïras": 12,
+    "Nombre de communes": 45,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 11,
+	"Name": "Tamanrasset",
+	"Nombre de daïras": 3,
+    "Nombre de communes": 5,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 12,
+	"Name": "Tebessa",
+	"Nombre de daïras": 12,
+    "Nombre de communes": 28,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 13,
+	"Name": "Tlemcen",
+	"Nombre de daïras": 20,
+    "Nombre de communes": 53,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 14,
+	"Name": "Tiaret",
+	"Nombre de daïras": 14,
+    "Nombre de communes": 42,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 15,
+	"Name": "Tizi Ouzou",
+	"Nombre de daïras": 21,
+    "Nombre de communes": 67,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 16,
+	"Name": "Algiers",
+	"Nombre de daïras": 13,
+    "Nombre de communes": 57,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 17,
+	"Name": "Djelfa",
+	"Nombre de daïras": 12,
+    "Nombre de communes": 36,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 18,
+	"Name": "Jijel",
+	"Nombre de daïras": 11,
+    "Nombre de communes": 28,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 19,
+	"Name": "Setif",
+	"Nombre de daïras": 20,
+    "Nombre de communes": 60,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 20,
+	"Name": "Saida",
+	"Nombre de daïras": 6,
+    "Nombre de communes": 16,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 21,
+	"Name": "Skikda",
+	"Nombre de daïras": 13,
+    "Nombre de communes": 38,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 22,
+	"Name": "Sidi Bel Abbes",
+	"Nombre de daïras": 15,
+    "Nombre de communes": 52,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 23,
+	"Name": "Annaba",
+	"Nombre de daïras": 6,
+    "Nombre de communes": 12,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 24,
+	"Name": "Guelma",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 34,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 25,
+	"Name": "Constantine",
+	"Nombre de daïras": 6,
+    "Nombre de communes": 12,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 26,
+	"Name": "Medea",
+	"Nombre de daïras": 19,
+    "Nombre de communes": 64,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 27,
+	"Name": "Mostaganem",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 32,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 28,
+	"Name": "Msila",
+	"Nombre de daïras": 15,
+    "Nombre de communes": 47,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 29,
+	"Name": "Mascara",
+	"Nombre de daïras": 16,
+    "Nombre de communes": 47,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 30,
+	"Name": "Ouargla",
+	"Nombre de daïras": 6,
+    "Nombre de communes": 10,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 31,
+	"Name": "Oran",
+	"Nombre de daïras": 9,
+    "Nombre de communes": 26,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 32,
+	"Name": "El Bayadh",
+	"Nombre de daïras": 8,
+    "Nombre de communes": 22,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 33,
+	"Name": "Illizi",
+	"Nombre de daïras": 2,
+    "Nombre de communes": 4,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 34,
+	"Name": "Bordj Bou Arreidj",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 34,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 35,
+	"Name": "Boumerdes",
+	"Nombre de daïras": 9,
+    "Nombre de communes": 32,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 36,
+	"Name": "EL Tarf",
+	"Nombre de daïras": 7,
+    "Nombre de communes": 24,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 37,
+	"Name": "Tindouf",
+	"Nombre de daïras": 1,
+    "Nombre de communes": 2,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 38,
+	"Name": "Tissemsilt",
+	"Nombre de daïras": 8,
+    "Nombre de communes": 22,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 39,
+	"Name": "El Oued",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 22,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 40,
+	"Name": "Khenchla",
+	"Nombre de daïras": 8,
+    "Nombre de communes": 21,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 41,
+	"Name": "Souk Ahres",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 26,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 42,
+	"Name": "Tipaza",
+	"Nombre de daïras": 10,
+    "Nombre de communes": 28,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 43,
+	"Name": "Mila",
+	"Nombre de daïras": 13,
+    "Nombre de communes": 32,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 44,
+	"Name": "Ain Defla",
+	"Nombre de daïras": 14,
+    "Nombre de communes": 36,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 45,
+	"Name": "Naama",
+	"Nombre de daïras": 7,
+    "Nombre de communes": 12,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 46,
+	"Name": "Ain Tmouchent",
+	"Nombre de daïras": 9,
+    "Nombre de communes": 28,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 47,
+	"Name": "Ghardaia",
+	"Nombre de daïras": 7,
+    "Nombre de communes": 9,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 48,
+	"Name": "Relizane",
+	"Nombre de daïras": 13,
+    "Nombre de communes": 38,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 49,
+	"Name": "El MGhair",
+	"Nombre de daïras": 2,
+    "Nombre de communes": 8,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 50,
+	"Name": "El Menia",
+	"Nombre de daïras": 2,
+    "Nombre de communes": 4,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 51,
+	"Name": "Ouled Djellal",
+	"Nombre de daïras": 2,
+    "Nombre de communes": 6,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 52,
+	"Name": "Borj Badji Mokhtar",
+	"Nombre de daïras": 1,
+    "Nombre de communes": 2,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 53,
+	"Name": "Beni Abbes",
+	"Nombre de daïras": 6,
+    "Nombre de communes": 10,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 54,
+	"Name": "Timimoun",
+	"Nombre de daïras": 4,
+    "Nombre de communes": 10,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 55,
+	"Name": "Touggourt",
+	"Nombre de daïras": 4,
+    "Nombre de communes": 11,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 56,
+	"Name": "Djanet",
+	"Nombre de daïras": 1,
+    "Nombre de communes": 2,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 57,
+	"Name": "In Saleh",
+	"Nombre de daïras": 2,
+    "Nombre de communes": 3,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  },{
+    "id": 58,
+	"Name": "In Guezzam",
+	"Nombre de daïras": 2,
+    "Nombre de communes": 2,
+    "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
+    "location": {
+    "lat": -68.076868,
+    "long": 63.694022
+  }
+  }	
+  
+]
+}
