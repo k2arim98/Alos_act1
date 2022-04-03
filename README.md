@@ -6,7 +6,7 @@
   
  # Alos_TP2
   The second folder contains an updated json file and two js files.
-  "Act.js", contains the POST route created using Express,Express-Validator,Morgan...etc.
+  "Act2.js", contains the POST route created using Express,Express-Validator,Morgan...etc.
   "Testing.js" is used to test the POST route Using Mocha supertest.
   
   
