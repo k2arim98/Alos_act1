@@ -2,6 +2,7 @@
 var express = require('express')
 var logger = require("morgan");
 const bodyParser = require('body-parser');
+const Countries = require('./db.json')
 
 var app = express()
 app.use(logger('dev'));
@@ -12,7 +13,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const { body, validationResult } = require('express-validator');
-///POST 
+
+///GET ROUTE
+app.get('/Countries', (req,res) => {
+    res.status(200).json(Countries)
+})
+/// WITH ID
+app.get('/Countries/:id', (req,res) => {
+    const id = parseInt(req.params.id)
+    const state = Countries.find(state => state.id === id)
+    res.status(200).json(state)
+})
+
+///POST ROUTE 
 ///express-validator
 //middlwares
 app.post('/Countries', 
@@ -48,6 +61,32 @@ body('long').isFloat(),
     })
     
 });
+
+///PUT ROUTE
+app.put('/Countries/:id',
+	body('Name').not().isEmpty().trim().escape(),
+	body('Nombre de daïras').isInt(),
+	body('Nombre de communes').isInt(),
+	body('about').not().isEmpty().trim().escape(),
+	body('lat').isFloat(),
+	body('long').isFloat(),
+	(req,res) => {
+    	const id = parseInt(req.params.id)
+    	let state = Countries.find(state => state.id === id)
+    	state.Name =req.body.Name,
+    	state.about =req.body.about,
+    	state.location.lat =req.body.lat,
+	state.location.long =req.body.long,	
+    	res.status(200).json(state)
+})
+    
+///DELETE ROUTE
+app.delete('/Countries/:id', (req,res) => {
+    const id = parseInt(req.params.id)
+    let state = Countries.find(state => state.id === id)
+    Countries.splice(Countries.indexOf(state),1)
+    res.status(200).json(Countries)
+})
 
 // catching the 404 error msg and pushing it to error handler using next ()
 
