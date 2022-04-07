@@ -22,6 +22,7 @@ app.get('/Countries', (req,res) => {
 app.get('/Countries/:id', (req,res) => {
     const id = parseInt(req.params.id)
     const state = Countries.find(state => state.id === id)
+    if(!state) return response.status(404).send("The state with the provided ID does not exist.");
     res.status(200).json(state)
 })
 
@@ -84,6 +85,7 @@ app.put('/Countries/:id',
 app.delete('/Countries/:id', (req,res) => {
     const id = parseInt(req.params.id)
     let state = Countries.find(state => state.id === id)
+    if(!state) return response.status(404).send("The state with the provided ID does not exist.");
     Countries.splice(Countries.indexOf(state),1)
     res.status(200).json(Countries)
 })
