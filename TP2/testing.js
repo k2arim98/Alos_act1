@@ -68,12 +68,13 @@ describe('GET /Countries', () {
 });
  
 /**
- * Testing get a state endpoint by giving an existing state
+ * Testing get route with an existing id
  */
 describe('GET /Countries/:id', () {
     it('respond with json containing a single state', (done) {
-        request(app)
-            .get('/users/1')
+        const id = 2;
+	request(app)
+            .get('/users/' + id)
             .set('Accept', 'application/json')
             .expect('Content-Type', /json/)
             .expect(200, done);
@@ -85,8 +86,9 @@ describe('GET /Countries/:id', () {
  */
 describe('GET /Countries/:id', () {
     it('respond with json State not found', (done) {
+	const id = 679
         request(app)
-            .get('/Countries/idisnonexisting')
+            .get('/Countries/' + id)
             .set('Accept', 'application/json')
             .expect('Content-Type', /json/)
             .expect(404) //expecting HTTP status code
