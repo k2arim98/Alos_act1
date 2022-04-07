@@ -29,12 +29,12 @@ describe('POST /Countries',  ()=>  {
   });
 });
 
-////
+//// False Data
 describe('POST /Countries',  () => {
   let data = {
       //no id
       "Name": "Testing Entity 2",
-	  "Nombre de daïras": 11,
+      "Nombre de daïras": 11,
       "Nombre de communes": 11,
       "about": "Do nostrud voluptate excepteur anim sunt dolore id cupidatat in. Culpa consequat velit labore dolore non aliquip id commodo incididunt amet voluptate enim non id.",
       "location": {
@@ -55,4 +55,45 @@ describe('POST /Countries',  () => {
               done();
           });
   });
+});
+//// GET Route
+describe('GET /Countries', () {
+    it('respond with json containing a list of all States', (done) {
+        request(app)
+            .get('/Countries')
+            .set('Accept', 'application/json')
+            .expect('Content-Type', /json/)
+            .expect(200, done);
+    });
+});
+ 
+/**
+ * Testing get a state endpoint by giving an existing state
+ */
+describe('GET /Countries/:id', () {
+    it('respond with json containing a single state', (done) {
+        request(app)
+            .get('/users/1')
+            .set('Accept', 'application/json')
+            .expect('Content-Type', /json/)
+            .expect(200, done);
+    });
+});
+
+/**
+ * a non-existing id
+ */
+describe('GET /Countries/:id', () {
+    it('respond with json State not found', (done) {
+        request(app)
+            .get('/Countries/idisnonexisting')
+            .set('Accept', 'application/json')
+            .expect('Content-Type', /json/)
+            .expect(404) //expecting HTTP status code
+            .expect('"State not found"') // expecting content value
+            .end((err) => {
+                if (err) return done(err);
+                done();
+            });
+    });
 });
