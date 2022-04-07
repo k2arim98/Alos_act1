@@ -22,7 +22,7 @@ app.get('/Countries', (req,res) => {
 app.get('/Countries/:id', (req,res) => {
     const id = parseInt(req.params.id)
     const state = Countries.find(state => state.id === id)
-    if(!state) return response.status(404).send("The state with the provided ID does not exist.");
+    if(!state) return response.status(404).send(""State not found"");
     res.status(200).json(state)
 })
 
@@ -45,7 +45,7 @@ body('long').isFloat(),
 	
 // id and Name should not be EMPTY
     if (!content.id && !content.Name) { 
-        return res.status(400).json('La wilaya nest pas ajoutee');
+        return res.status(400).json('"State not added"');
     }
 
 // verification if the State is successesfuly ADDED
@@ -57,7 +57,7 @@ body('long').isFloat(),
     } 
     res.status(200).json({
         success: true,
-        message: 'ajoute avec success',
+        message: 'State succsesfully added',
         
     })
     
@@ -85,7 +85,7 @@ app.put('/Countries/:id',
 app.delete('/Countries/:id', (req,res) => {
     const id = parseInt(req.params.id)
     let state = Countries.find(state => state.id === id)
-    if(!state) return response.status(404).send("The state with the provided ID does not exist.");
+    if(!state) return response.status(404).send("State not found");
     Countries.splice(Countries.indexOf(state),1)
     res.status(200).json(Countries)
 })
