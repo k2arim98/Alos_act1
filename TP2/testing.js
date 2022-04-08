@@ -57,7 +57,7 @@ describe('POST /Countries',  () => {
   });
 });
 // GET Route
-describe('GET /Countries', () {
+describe('GET /Countries', () => {
     it('respond with json containing a list of all States', (done) {
         request(app)
             .get('/Countries')
@@ -70,7 +70,7 @@ describe('GET /Countries', () {
 /**
  * Testing get route with an existing id
  */
-describe('GET /Countries/:id', () {
+describe('GET /Countries/:id', () => {
     it('respond with json containing a single state', (done) {
         const id = 2;
 	request(app)
@@ -84,7 +84,7 @@ describe('GET /Countries/:id', () {
 /**
  * a non-existing id
  */
-describe('GET /Countries/:id', () {
+describe('GET /Countries/:id', () => {
     it('respond with json State not found', (done) {
 	const id = 679
         request(app)
@@ -116,7 +116,7 @@ describe("DELETE /Countries/:id", () => {
 /**
  * a non-existing id
  */
-describe('DELETE /Countries/:id', () {
+describe('DELETE /Countries/:id', () => {
     it('respond with json State not found', (done) {
 	const id = 679
         request(app)
