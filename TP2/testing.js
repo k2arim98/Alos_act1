@@ -29,7 +29,7 @@ describe('POST /Countries',  ()=>  {
   });
 });
 
-//// False Data
+// False Data
 describe('POST /Countries',  () => {
   let data = {
       //no id
@@ -56,7 +56,7 @@ describe('POST /Countries',  () => {
           });
   });
 });
-//// GET Route
+// GET Route
 describe('GET /Countries', () {
     it('respond with json containing a list of all States', (done) {
         request(app)
@@ -99,7 +99,7 @@ describe('GET /Countries/:id', () {
             });
     });
 });
-///DELETE route
+//DELETE route
 /**
  * an existing id
  */
