@@ -1,12 +1,12 @@
 # Alos_Tps
- In this Repository we are going to work on a REST Countries API using Nodejs,Unirest,Express...etc.
- 
- # Alos_TP1 
-  The first folder is about launching our first web server using json-server amd using UNIREST to implement a REST client.
-  
+ Dans se répertoire on va travailler sur un Rest API qui s'appelle Rest Countries API en utilisant js node
  # Alos_TP2
-  The second folder contains an updated json file and two js files.
-  "Act2.js", contains the POST route created using Express,Express-Validator,Morgan...etc.
-  "Testing.js" is used to test the POST route Using Mocha supertest.
-  
-  
+  ziane sihem-khelifa abdelkarim
+Dans ce readme  ont va vous expliquer les différente étape réaliser dans le tp2
+
+*nous avons créé un répartoire qui centient le package.json de notre API
+aprés ont na ajouter Express (....) .
+* aprés ont a ajouter le serveur express dans Act2.js.
+* dans cette étape nous avons crée des routes(ressources de notre API) tel que : post,get,delet,put et ont a utiliser les middlwares pour gérer les erreurs.
+* dans l'étape test nous avons utiliser morgan,supertest,mocha.
+* finalement pour tester le ficher testing.js nous avons (utiliser inviter )commande ont accder au chemain d'accées du répartoire aprés ont essaye le code par la commande (npm testing).
