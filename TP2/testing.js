@@ -42,7 +42,7 @@ describe('POST /Countries',  () => {
       "long": 62.694022
 				}
           }
-  it('respond with 400 not created',  (done)=>  {
+  it('respond with 400 not created',  (done) =>  {
       request(app)
           .post('/Countries')
           .send(data)
@@ -58,7 +58,7 @@ describe('POST /Countries',  () => {
 });
 // GET Route
 describe('GET /Countries', () => {
-    it('respond with json containing a list of all States', (done) {
+    it('respond with json containing a list of all States', (done) => {
         request(app)
             .get('/Countries')
             .set('Accept', 'application/json')
@@ -71,7 +71,7 @@ describe('GET /Countries', () => {
  * Testing get route with an existing id
  */
 describe('GET /Countries/:id', () => {
-    it('respond with json containing a single state', (done) {
+    it('respond with json containing a single state', (done) => {
         const id = 2;
 	request(app)
             .get('/Countries/' + id)
@@ -85,7 +85,7 @@ describe('GET /Countries/:id', () => {
  * a non-existing id
  */
 describe('GET /Countries/:id', () => {
-    it('respond with json State not found', (done) {
+    it('respond with json State not found', (done) => {
 	const id = 679
         request(app)
             .get('/Countries/' + id)
@@ -117,7 +117,7 @@ describe("DELETE /Countries/:id", () => {
  * a non-existing id
  */
 describe('DELETE /Countries/:id', () => {
-    it('respond with json State not found', (done) {
+    it('respond with json State not found', (done) => {
 	const id = 679
         request(app)
             .delete('/Countries/' + id)
