@@ -22,7 +22,7 @@ app.get('/Countries', (req,res) => {
 app.get('/Countries/:id', (req,res) => {
     const id = parseInt(req.params.id)
     const state = Countries.find(state => state.id === id)
-    if(!state) return response.status(404).send(""State not found"");
+    if(!state) return response.status(404).send("State not found");
     res.status(200).json(state)
 })
 
@@ -45,7 +45,7 @@ body('long').isFloat(),
 	
 // id and Name should not be EMPTY
     if (!content.id && !content.Name) { 
-        return res.status(400).json('"State not added"');
+        return res.status(400).json("State not added");
     }
 
 // verification if the State is successesfuly ADDED
