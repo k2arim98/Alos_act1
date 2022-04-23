@@ -3,7 +3,7 @@ import {
 } from "express-validator"
 import {
     add_host,
-    get_podcast_hosts
+    get_state_hosts
 } from "../../../utils/database"
 
 export default {
